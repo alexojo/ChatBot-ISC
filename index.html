@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>ISC UNSAAC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icono.ico" />
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo1.png" class="logo" height="50px" >
+
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">CURSOS</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">ADMISIÓN</a></li>
+                <li><a href="#">CONTÁCTANOS</a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+    
+</body>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "7931a581-3c0b-44b0-981b-154cb4a6df7d", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "5737429b-29b8-4e47-95d7-8570f5727d6a", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+</html>
